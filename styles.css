@@ -1,1 +1,57 @@
 
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #f1f1f1;
+    margin: 03px;
+
+}
+i{
+    font-size: 40px;
+}
+.top-left{
+    margin: 05px;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.left{
+    padding: 20px;
+    margin: 05px;
+}
+
+.left-right{
+    flex-direction: 1;
+    margin-left: 2em;
+}
+
+.skills{
+    /* flex-direction: column; */
+}
+
+/* ............
+right side 
+...........*/
+
+
+.about-me{
+    border-bottom: 3px solid blue;
+    position: absolute;
+    top: 0;
+}
+
+article{
+    position: absolute;
+    top: 10%;
+}
+
+/* ......
+Media Query
+........... */
+
+@media screen and (min-height: 601px),(min-width: 600px) {
+    .main-container{
+        /*  */
+    }
+
+}
